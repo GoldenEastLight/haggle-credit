@@ -17,7 +17,7 @@
 <h5>프로젝트 기획 배경은 다음과 같습니다.</h5>
 <ul>
 	<li>✔️언택트 시대의 대표 서비스, 이커머스 서비스 개발 경험</li>
-	<li>✔️역량 향상 :  <code><font color="blue"><b>React</b></font></code>, <code><font color="blue"><b>TypeScript</b></font></code>, 	<code><font color="lime"><b>Spring Security</b></font></code>, <code><font color="green"><b>Spring JPA</b></font></code>, <code><font color="blue"><b>Docker</b></font></code></li>, <code><font color="blue"><b>Jenkins</b></font></code></li>, <code><font color="blue"><b>NGINX</b></font></code></li>
+	<li>✔️역량 향상 :  <code><font color="blue"><b>React</b></font></code>, <code><font color="blue"><b>TypeScript</b></font></code>, 	<code><font color="lime"><b>Spring Security</b></font></code>, <code><font color="green"><b>Spring JPA</b></font></code>, <code><font color="blue"><b>Docker</b></font></code>, <code><font color="blue"><b>Jenkins</b></font></code>, <code><font color="blue"><b>NGINX</b></font></code></li>
 	<li>✔️경매를 통한 팔리지 않는 물품 판매 처리</li>
 	<li>✔️최적의 가격에 물품을 구매할 수 있는 기회 제공</li>
 </ul>
