@@ -52,19 +52,19 @@ public class SocketController {
 		result.setIcChatContent(content);
 		result.setIcUserNo(icUserNo);
 		result.setIcCrNo(icCrNo);
-		
+
 		// 시간
 		Date now = new Date();
 		result.setIcDate(now);
 		chatservice.createItemChat(result);
-		
+
 		// 채팅방 최신 대화, 시간 갱신
-		ChatRoom cr = chatservice.selectBycrNo(icCrNo); 
+		ChatRoom cr = chatservice.selectBycrNo(icCrNo);
 		cr.setCrLatestMessageTime(result.getIcDate());
 		cr.setCrLatestMessage(result.getIcChatContent());
 		chatservice.createChatRoom(cr);
 		System.out.println(result.getIcDate());
-		
+
 		// 반환
 		return result;
 	}

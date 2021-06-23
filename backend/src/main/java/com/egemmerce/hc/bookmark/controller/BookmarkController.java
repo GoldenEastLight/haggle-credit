@@ -59,8 +59,7 @@ public class BookmarkController {
 	/* R :: 북마크 조회 */
 	@GetMapping("/read")
 	public ResponseEntity<?> selectBookmark(int uNo, String type) throws Exception {
-
-		return new ResponseEntity<List<Item>>(bookmarkService.temp(uNo,type), HttpStatus.OK);
+		return new ResponseEntity<List<Item>>(bookmarkService.temp(uNo, type), HttpStatus.OK);
 	}
 
 	/* R :: 북마크한 수 조회 */
